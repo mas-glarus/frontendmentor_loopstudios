@@ -30,6 +30,11 @@ header div {
     font-size: 0.75rem;
 }
 
+a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: .5rem;
+}
+
 a + a {
     margin-left: 1rem;
 }
@@ -103,6 +108,16 @@ h3 {
     border: 3px solid hsl(0, 0%, 55%);
 }
 
+.see-all:hover {
+    cursor: pointer;
+}
+
+.see-all:active {
+    background-color: black;
+    color: white;
+    border:none;
+}
+
 .fotos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -114,7 +129,10 @@ h3 {
     height: 30rem;
     display: flex;
     align-items: flex-end;
+}
 
+.foto:hover {
+    opacity: .5;
 }
 
 h4 {
