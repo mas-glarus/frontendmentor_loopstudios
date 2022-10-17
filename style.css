@@ -56,8 +56,82 @@ h1 {
     font-size: 3rem;
 }
 
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 0 2rem 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.see-all {
+    font-family: 'Alata', sans-serif;
+    letter-spacing: .25rem;
+    font-weight: 600;
+    background-color: white;
+    padding: .5rem 2rem;
+    border: 3px solid hsl(0, 0%, 55%);
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.foto {
+    height: 30rem;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+h4 {
+    color: white;
+    margin: 0 0 1.5rem 1.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.deep-earh {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-deep-earth.jpg");
+}
+
+.night-arcade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url("./images/desktop/image-night-arcade.jpg");
+}
+
+.soccer-team {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-soccer-team.jpg");
+}
+
+.the-grid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-grid.jpg");
+}
+
+.above {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-from-above.jpg");
+}
+
+.pocket-borealis {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-pocket-borealis.jpg");
+}
+
+.curiosity {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-curiosity.jpg");
+}
+
+.fisheye {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/desktop/image-fisheye.jpg");
+}
+
 footer {
-    margin-top: 20rem; /*-------------TEST until main content filled in----------*/
+    margin-top: 10rem; /*-------------TEST until main content filled in----------*/
     background-color: black;
     color: white;
 }
