@@ -57,7 +57,8 @@ h2 {
 
 h1 {
     margin: 0;
-    width: 50%;
+    max-width: 400px;
+    min-width: 50%;
     border: 1px solid white;
     padding: 1.5rem;
     text-transform: uppercase;
@@ -336,6 +337,18 @@ footer a {
     main {
         margin: 0 2rem;
     }
+
+        header{
+            min-height: 40rem;
+            background-image: url("./images/mobile/image-hero.jpg");
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        .heading {
+            min-width: 90%;
+            height: 100%;
+        }
 
     .hamburger {
         display: block;
