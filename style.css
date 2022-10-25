@@ -346,6 +346,7 @@ footer a {
         }
 
         .heading {
+            margin-top: 40%;
             min-width: 90%;
             height: 100%;
         }
@@ -357,6 +358,7 @@ footer a {
     .filter {
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
     .see-all {
